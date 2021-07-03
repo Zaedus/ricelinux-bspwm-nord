@@ -1,0 +1,25 @@
+# BSPWM Nord Theme Config
+
+## Naming
+
+theme-name = "BSPWM Nord"                                   # Name shown to the user on login
+theme-id = "com.github.zaedus.ricelinux-bspwm-nord"         # Name the rice is installed under (ex: '/opt/ricelinux/com.github.zaedus.ricelinux-bspwm-nord')
+
+## Window Manager
+
+window-manager = "/usr/bin/bspwm"            # Must be the executable path
+window-manager-config = "bspwmrc"            # Relative path to your config
+
+## Dependencies
+
+pacman_packages = [
+    "bspwm",         # Must include window manager as dependent
+    "sxhkd",         # Hotkey daemon
+    "bash",          # Not necessary, but recommended to include all dependencies regardless of if they are installed by default
+    "rofi",          # Launcher
+    "alacritty",     # Terminal
+]
+
+aur_packages = [
+    "ttf-envy-code-r"
+]
