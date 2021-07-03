@@ -1,0 +1,5 @@
+super + Return
+    alacritty -e /bin/bash --init-file $RICE_DIR/bashrc
+
+super + space
+    rofi -config $RICE_DIR/nord.rasi -show drun
