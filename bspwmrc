@@ -1,5 +1,7 @@
 #! /bin/sh
 
+echo $RICE_DIR > ~/test
+
 # for the key-binding daemon (we'll see it below)
 sxhkd &
 
