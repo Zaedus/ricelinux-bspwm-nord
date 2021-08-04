@@ -3,7 +3,7 @@
 echo $RICE_DIR > ~/test
 
 # for the key-binding daemon (we'll see it below)
-sxhkd &
+sxhkd -c $RICE_DIR/sxhkdrc &
 
 # for adding multiple monitors and workspaces
 i=1
