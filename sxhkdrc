@@ -3,3 +3,7 @@ super + Return
 
 super + space
     rofi -config $RICE_DIR/nord.rasi -show drun
+
+super + q
+    bspc node -c
+
