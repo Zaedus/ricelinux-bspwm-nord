@@ -7,3 +7,6 @@ super + space
 super + q
     bspc node -c
 
+XF86AudioMute
+    amixer set Master toggle
+
