@@ -10,3 +10,6 @@ super + q
 XF86AudioMute
     amixer set Master toggle
 
+super + Tab
+    bspc desktop -f last
+
