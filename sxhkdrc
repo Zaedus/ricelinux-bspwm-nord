@@ -13,3 +13,6 @@ XF86AudioMute
 super + Tab
     bspc desktop -f last
 
+super + {_,shift + }{1-8}
+        bspc {desktop -f,node -d} '^{1-8}'
+
