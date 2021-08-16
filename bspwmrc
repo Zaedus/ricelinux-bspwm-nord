@@ -14,11 +14,12 @@ bspc monitor $monitor \
     let i++
 done
 
-bspc config border_width         2
+bspc config border_width          2
 
 # I like to keep it 10, let me know what you think.
-bspc config window_gap          12
+bspc config window_gap            12
 
-bspc config split_ratio          0.52
-bspc config borderless_monocle   true
-bspc config gapless_monocle      true
+bspc config split_ratio           0.52
+bspc config borderless_monocle    true
+bspc config gapless_monocle       true
+bspc config focus_follows_pointer true
